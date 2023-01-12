@@ -1323,6 +1323,196 @@ Main Slider Area CSS
   right: 20px;
 }
 
+.main-slider-item2 {
+  position: relative;
+  background-image: url(../img/slides/n0.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.main-slider-item2::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: .0;
+}
+
+.main-slider-item2.item-two {
+  background-image: url(../img/slides/n1.jpg);
+}
+
+.main-slider-item2.item-three {
+  background-image: url(../img/slides/n2.jpg);
+}
+
+.main-slider-item2.item-four {
+  background-image: url(../img/slides/n3.jpg);
+}
+
+.main-slider-item2.item-five {
+  background-image: url(../img/slides/n4.jpg);
+}
+
+.main-slider-item2.item-six {
+  background-image: url(../img/slides/n5.jpg);
+}
+
+.main-slider-item2.item-seven {
+  background-image: url(../img/slides/n6.jpg);
+}
+
+.main-slider-item2.item-eight {
+  background-image: url(../img/slides/n7.jpg);
+}
+
+.main-slider-item2.item-nine {
+  background-image: url(../img/slides/n8.jpg);
+}
+
+.main-slider-item2.item-ten {
+  background-image: url(../img/slides/n9.jpg);
+}
+
+.main-slider-item2.item-eleven {
+  background-image: url(../img/slides/n10.jpg);
+}
+
+.main-slider-item2.item-twelve {
+  background-image: url(../img/slides/n11.jpg);
+}
+
+.main-slider-item2.item-thirteen {
+  background-image: url(../img/slides/n12.jpg);
+  }
+
+  .main-slider-item2.item-fourteen {
+  background-image: url(../img/slides/n13.jpg);
+  }
+
+.main-slider-item2.item-fifteen {
+  background-image: url(../img/slides/n14.jpg);
+  }
+
+.main-slider-item2.item-sixteen {
+  background-image: url(../img/slides/17.jpg);
+  }
+
+.main-slider-item2.item-seventeen {
+  background-image: url(../img/slides/18.jpg);
+  }
+
+.main-slider-item2.item-eighteen {
+  background-image: url(../img/slides/19.jpg);
+  }
+
+.main-slider-item2.item-nineteen {
+  background-image: url(../img/slides/20.jpg);
+  }
+
+.main-slider-item2.item-twenty {
+  background-image: url(../img/slides/21.jpg);
+  }
+
+.main-slider-item2.item-twenty-one {
+  background-image: url(../img/slides/22.jpg);
+  }
+
+.main-slider-item2.item-twenty-two {
+  background-image: url(../img/slides/23.jpg);
+  }
+
+  .main-slider-item2.item-twenty-four {
+  background-image: url(../img/slides/24.jpg);
+  }
+
+.main-slider-content {
+  max-width: 760px;
+  margin: -210px auto 0;
+  text-align: center;
+}
+
+.main-slider-content h1 {
+  font-size: 55px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+
+.main-slider-content p {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.main-slider-content .slider-btn {
+  margin-top: 30px;
+}
+
+.slider-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.home-slides.owl-theme .owl-nav {
+  margin-top: 0;
+}
+
+.home-slides.owl-theme .owl-nav [class*=owl-] {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: 0;
+  outline: 0;
+  width: 45px;
+  height: 45px;
+  line-height: 52px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #ffffff;
+  color: #2554ff;
+  border-radius: 50%;
+  opacity: 1;
+  visibility: hidden;
+}
+
+.home-slides.owl-theme .owl-nav [class*=owl-]:hover, .home-slides.owl-theme .owl-nav [class*=owl-]:focus {
+  background-color: #031521;
+}
+
+.home-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+  left: auto;
+  right: 10px;
+}
+
+.home-slides.owl-theme .owl-nav [class*=owl-] i {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.home-slides.owl-theme:hover .owl-nav [class*=owl-] {
+  opacity: 1;
+  visibility: visible;
+  left: 20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.home-slides.owl-theme:hover .owl-nav [class*=owl-].owl-next {
+  left: auto;
+  right: 20px;
+}
+
+
 /*================================================
 Top Services Area CSS
 =================================================*/
@@ -3365,13 +3555,14 @@ Testing Area CSS
 Newsletter Area CSS
 =================================================*/
 .newsletter-inner {
-  background-color: #0fe7f9;
+  background-color: #05152f;
   padding: 55px 70px;
   border-radius: 30px;
 }
 
 .newsletter-content h2 {
   font-size: 30px;
+  color: #ffffff;
 }
 
 .newsletter-form {
@@ -4644,7 +4835,7 @@ Sidebar Widget Area CSS
   height: 400px;
   text-align: center;
   margin-top: 30px;
-  background-image: url(../img/emergency-bg.jpg);
+  background-image: url(../img/news/120122-03.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
